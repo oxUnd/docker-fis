@@ -44,7 +44,7 @@
     ```
     boot2docker ip
     ```
-- such port `32769`, Browser open '<pi>:32769'
+- such port `32769`, Browser open '<ip>:32769'
 
 #### release project
 
@@ -64,6 +64,16 @@
     # to local dir
     docker exec fis fis3 release -d ./output
     ```
+
+    **NOTICE**
+
+    watch feature must set
+
+    ```js
+    fis.set('project.watch.usePolling', true);
+    ```
+
+    to `fis-conf.js`
 
 ### todo
 
