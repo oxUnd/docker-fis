@@ -22,7 +22,7 @@
     docker run -it -P -v "$PWD":/usr/src/app --rm --name fis fis
     ```
 
-- enter container RUN
+- enter the container RUN
 
     ```
     fis3 server start
@@ -32,7 +32,7 @@
 
 #### visit FIS server
 
-- open other ternimal
+- **[MUST]** open other ternimal
 - get real port of the FIS server
 
     ```
