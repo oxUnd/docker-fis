@@ -5,6 +5,7 @@
 
 #### start
 
+- open a terminal ( iterm2 or konsole or same one)
 - run docker
 
     ```
@@ -32,7 +33,7 @@
 
 #### visit FIS server
 
-- **[MUST]** open other ternimal
+- **[MUST]** open other Terminal
 - get real port of the FIS server
 
     ```
