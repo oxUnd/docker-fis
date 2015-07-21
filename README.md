@@ -56,8 +56,13 @@
 
 - RUN release command
     
-    ```
+    ```bash
+    ### only release
     docker exec fis fis3 release
+    # with watch
+    docker exec fis fis3 release -w
+    # to local dir
+    docker exec fis fis3 release -d ./output
     ```
 
 ### todo
