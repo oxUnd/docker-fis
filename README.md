@@ -44,7 +44,7 @@
     ```
     boot2docker ip
     ```
-- such port `32769`, Browser open '<ip>:32769'
+- such port `32769`, Browser open `<ip>:32769`
 
 #### release project
 
